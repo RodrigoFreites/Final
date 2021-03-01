@@ -1,0 +1,23 @@
+$width-logo: 10%;
+$color: #fff;
+
+.navbar {
+    background-color: #272727;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link { color: $color;}
+.nav-link:hover { color: $color;}
+
+.logo-brand {
+    min-width: $width-logo;
+    max-width: $width-logo;
+}
+
+.menu {
+    color: $color;
+    font-size: 40px;
+}
+
+.menu:focus {outline: none;}

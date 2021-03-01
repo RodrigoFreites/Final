@@ -1,0 +1,19 @@
+$color-style: #ffffff;
+
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: $color-style;
+}
+
+#footer a {
+    color: $color-style;
+}
+
+#footer a:hover {
+    color: $color-style;
+}
+
+#footer .footer__list-inline .list-inline-item {
+    padding: 10px 15px;
+}
