@@ -101,7 +101,7 @@ a:hover {
 /* Media Query */
 @media (min-width: 320px) and (max-width: 520px) {
   .banner {
-    padding-top: 40%; }
+    padding-top: 45%; }
   .information__title {
     font-size: 45px; }
   .information__text {
@@ -130,6 +130,16 @@ a:hover {
   .portfolio__details a, .portfolio__details a p {
     font-size: 17px;
     padding-bottom: 2%; } }
+
+@media (min-width: 1024px) and (max-width: 1250px) {
+  .banner {
+    padding-top: 5%; }
+  .information__text {
+    font-size: 150%; }
+  .portfolio__details h2 {
+    font-size: 30px; }
+  .portfolio__details a, .portfolio__details a p {
+    font-size: 22px; } }
 
 /* Footer */
 #footer {
@@ -234,6 +244,18 @@ body {
 
 .contact__info ul li {
   padding: .3em; }
+
+@media (min-width: 320px) and (max-width: 520px) {
+  .container__brand {
+    padding-top: 35%; } }
+
+@media (min-width: 700px) and (max-width: 960px) {
+  .container__brand {
+    padding-top: 15%; } }
+
+@media (min-width: 1024px) and (max-width: 1250px) {
+  .container__brand {
+    padding-top: 5%; } }
 
 /* About */
 .member-container {

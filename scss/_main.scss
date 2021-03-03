@@ -70,7 +70,7 @@ $text-font: 'Titillium Web', sans-serif;
 @media (min-width: 320px) and (max-width: 520px) {
     
     .banner {
-        padding-top: 40%;
+        padding-top: 45%;
     }
 
     .information__title {
@@ -105,21 +105,39 @@ $text-font: 'Titillium Web', sans-serif;
         padding-top: 25%;
 }
 
-.information__title {
-    font-size: 70px;
+    .information__title {
+        font-size: 70px;
+    }
+
+    .information__text {
+        font-size: 30px;
+    }
+
+    .portfolio__details h2 {
+        font-size: 30px;
+        padding-bottom: 1%;
+    }
+
+    .portfolio__details a, .portfolio__details a p {
+        font-size: 17px;
+        padding-bottom: 2%;
+        }
 }
 
-.information__text {
-    font-size: 30px;
-}
+@media (min-width: 1024px) and (max-width: 1250px) {
+    .banner {
+        padding-top: 5%;
+    }
 
-.portfolio__details h2 {
-    font-size: 30px;
-    padding-bottom: 1%;
-}
+    .information__text {
+        font-size: 150%;
+    }
 
-.portfolio__details a, .portfolio__details a p {
-    font-size: 17px;
-    padding-bottom: 2%;
+    .portfolio__details h2 {
+        font-size: 30px;
+    }
+
+    .portfolio__details a, .portfolio__details a p {
+        font-size: 22px;
     }
 }

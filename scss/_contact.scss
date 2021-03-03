@@ -103,3 +103,21 @@ body {
 .contact__info ul li {
     padding: .3em;
 }
+
+@media (min-width: 320px) and (max-width: 520px) {
+    .container__brand {
+        padding-top: 35%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 960px) {
+    .container__brand {
+        padding-top: 15%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1250px) {
+    .container__brand {
+        padding-top: 5%;
+    }
+}
