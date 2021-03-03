@@ -67,6 +67,29 @@ $text-font: 'Titillium Web', sans-serif;
 
 /* Media Query */
 
+@media (min-width: 280px) and (max-width: 315px) {
+
+    .banner {
+        padding-top: 70%;
+    }
+
+    .information__title {
+        font-size: 300%;
+    }
+
+    .information__text {
+        font-size: 100%;
+    }
+
+    .portfolio__details h2 {
+        font-size: 20px;
+    }
+
+    .portfolio__details a, .portfolio__details a p {
+        font-size: 8px;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 520px) {
     
     .banner {
