@@ -9,9 +9,9 @@ $section-padding: 120px 0;
 
 body {
     font-family: 'Titillium Web', sans-serif;
-    background: rgba(155, 150, 150, 0.671);
+    background: rgb(221,219,219);
+background: linear-gradient(90deg, rgba(221,219,219,1) 0%, rgba(255,255,255,1) 50%, rgba(221,221,221,1) 100%);
 }
-
 
 section {
     padding: $section-padding;

@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
-  background: rgba(155, 150, 150, 0.671); }
+  background: #dddbdb;
+  background: linear-gradient(90deg, #dddbdb 0%, white 50%, #dddddd 100%); }
 
 section {
   padding: 120px 0; }
@@ -327,6 +328,75 @@ ion-icon {
   font-family: 'Shippori Mincho', serif;
   padding-top: 2%;
   font-size: 16px; }
+
+.link {
+  position: relative;
+  width: 160px;
+  height: 50px;
+  margin: 15px 10px;
+  text-decoration: none;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #00fe73;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.5s; }
+
+.link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background: #00fe73;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.5s; }
+
+.link:nth-child(2)::before,
+.link:nth-child(2)::after {
+  background: #fe1a6f; }
+
+.link:hover::before,
+.link:hover::after {
+  width: 50%;
+  transition-delay: 0s; }
+
+.link .boton {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5; }
+
+.link .boton:nth-child(1) {
+  transition-delay: 0.75s; }
+
+.link:hover .boton:nth-child(1) {
+  transform: scale(0);
+  transition-delay: 0s; }
+
+.link .boton:nth-child(2) {
+  transform: scale(3);
+  opacity: 0;
+  color: #111;
+  transition-delay: 0s; }
+
+.link:hover .boton:nth-child(2) {
+  transform: scale(1);
+  transition-delay: 0s;
+  opacity: 1;
+  z-index: 10; }
 
 /* Media Query */
 @media (min-width: 320px) and (max-width: 520px) {
