@@ -1,4 +1,3 @@
-$width-logo: 10%;
 $color: #fff;
 
 .navbar {
@@ -11,8 +10,7 @@ $color: #fff;
 .nav-link:hover { color: $color;}
 
 .logo-brand {
-    min-width: $width-logo;
-    max-width: $width-logo;
+    width: 2rem;
 }
 
 .menu {
