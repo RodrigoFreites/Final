@@ -99,3 +99,40 @@
     z-index: 10;
     
 }
+
+
+/* Media Query */
+
+@media (min-width: 280px) and (max-width: 315px) {
+    .card-deck {
+        padding-top: 45%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 520px) {
+    .card-deck {
+        padding-top: 30%;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 650px) {
+    .card-deck {
+        padding-top: 16%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .card-deck{
+        padding-top: 7%;
+        display: block;
+        padding-left: 5%;    
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1024px){
+    .card-deck {
+        padding-top: 5%;
+        display: block;
+        padding-left: 5%;
+    }
+}

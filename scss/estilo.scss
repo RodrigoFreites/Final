@@ -9,8 +9,9 @@ $section-padding: 120px 0;
 
 body {
     font-family: 'Titillium Web', sans-serif;
-    background: rgb(221,219,219);
-background: linear-gradient(90deg, rgba(221,219,219,1) 0%, rgba(255,255,255,1) 50%, rgba(221,221,221,1) 100%);
+    background: rgb(212,212,212);
+    background: linear-gradient(90deg, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 50%, rgba(212,212,212,1) 100%);
+    padding-top: 7%;
 }
 
 section {
@@ -57,27 +58,4 @@ a:hover {
         padding: 20px 0 !important;
         font-size: 20px;
     }
-
-    .card-deck {
-        padding-top: 44%;
-    }
-
-}
-
-@media (min-width: 540px) and (max-width: 650px) {
-
-}
-
-
-@media (min-width: 768px) and (max-width: 950px) {
-
-    .card-deck {
-        padding-top: 20%;
-        display: block;
-    }
-
-}
-
-@media (max-width: 1024px) {
-
 }
