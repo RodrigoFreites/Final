@@ -50,8 +50,8 @@ a:hover {
 .banner {
   background-size: cover;
   padding-top: 1%;
-  width: 90%;
-  padding-left: 15%; }
+  width: 100%;
+  /*     padding-left: 15%; */ }
 
 .information__title {
   font-family: "Titillium Web", sans-serif;
@@ -102,7 +102,8 @@ a:hover {
 /* Media Query */
 @media (min-width: 280px) and (max-width: 315px) {
   .banner {
-    padding-top: 40%; }
+    padding-top: 40%;
+    width: 100%; }
   .information__title {
     font-size: 300%; }
   .information__text {
@@ -114,7 +115,8 @@ a:hover {
 
 @media (min-width: 320px) and (max-width: 520px) {
   .banner {
-    padding-top: 32%; }
+    padding-top: 36%;
+    width: 100%; }
   .information__title {
     font-size: 45px; }
   .information__text {
@@ -128,11 +130,13 @@ a:hover {
 
 @media (min-width: 540px) and (max-width: 650px) {
   .banner {
-    padding-top: 18%; } }
+    padding-top: 18%;
+    width: 100%; } }
 
 @media (min-width: 768px) and (max-width: 950px) {
   .banner {
-    padding-top: 12%; }
+    padding-top: 12%;
+    width: 100%; }
   .information__title {
     font-size: 70px; }
   .information__text {
@@ -146,7 +150,8 @@ a:hover {
 
 @media (min-width: 1024px) and (max-width: 1250px) {
   .banner {
-    padding-top: 5%; }
+    padding-top: 5%;
+    width: 100%; }
   .information__text {
     font-size: 150%; }
   .portfolio__details h2 {
